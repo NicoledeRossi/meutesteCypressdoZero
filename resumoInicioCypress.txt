@@ -1,0 +1,32 @@
+// Exemplo de como começar a utilizar o Cypress
+
+// Tem q ter o Node e VSCode instalados 
+
+// criar uma pasta 
+// criar um arquivo.txt
+// iniciar VSCode
+// comando "abrir uma pasta" (que criamos)
+
+// no VSCode, Terminal, novo Terminal
+
+npm init -yes
+ // cria o arquivo package.json, que tem os dados do projeto
+ // (nome, versão, descrição, arquivo principal, autor, licensa)
+
+
+npm install - D cypress 
+ // -D significa dependência de desenvolvimento, não entra em produção
+ //  cria o arquivo package-lock.json
+ //  atualiza o package.jason com a dependencia
+
+
+ npx cypress open
+ //  abre cypress no navegador
+ //  no navegar, temos q clicar no e2e, continue, e seleciona o navedor(chrome)
+ //  vai abrir uma pagina independente com o testador
+
+ //  cria o arquivo cypress.config.js
+
+ //  no navegador, clica create new spec
+ //  cria pasta e2e, e o arquivo spec.cy.js, que ja vem com um "modelo"
+ //  agora ja podemos criar o primeiro teste
